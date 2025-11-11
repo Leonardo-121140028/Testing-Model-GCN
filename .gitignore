@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Flask
+instance/
+.webassets-cache
+
+# Uploads
+uploads/
+*.jpg
+*.png
+*.jpeg
+!templates/*.jpg
+!templates/*.png
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model outputs
+predictions_*.csv
+*_confusion_matrix.png
+*_skeleton.jpg
+*_result.jpg
+
+# Temporary files
+temp_*.jpg
+temp_*.png
+*.tmp
