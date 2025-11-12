@@ -101,7 +101,7 @@ if __name__ == '__main__':
     # Run app
     print("\n" + "="*60)
     print("Fall Detection Web App Starting...")
-    print("Open your browser and go to: http://localhost:5000")
+    print("Open your browser and go to: http://localhost:5123")
     print("="*60 + "\n")
     
     app.run(debug=True, host='0.0.0.0', port=5123)
